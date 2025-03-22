@@ -1,0 +1,2 @@
+name,id,tier,rarity,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,tech/manufacturer,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,sModDesc,short,sprite
+Cruise Drive,utafae_cruisedrive,2,,"engines, req_spaceport","Engines, Requires Dock",3000,,,,Uta-Fae,7,14,21,28,data.hullmods.utafae_CruiseDrive,"Increases the 0-flux speed bonus by %s, at the cost of some agility.",,faster 0-flux boost,graphics/hullmods/utafae_hullmod_cruise_drive.png

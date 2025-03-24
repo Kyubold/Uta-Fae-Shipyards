@@ -9,9 +9,9 @@
   "hardpointSprite": "graphics/weapons/utafae_leafnibbler_small_energy_hardpoint.png",
   "hardpointGlowSprite": "graphics/weapons/utafae_leafnibbler_small_energy_glow.png",
   "glowColor": [
-    95,
-    143,
-    180,
+    196,
+    156,
+    74,
     225
   ],
   "turretOffsets": [

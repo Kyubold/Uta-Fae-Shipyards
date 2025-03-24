@@ -1,13 +1,20 @@
 id,type,text1,text2,text3,notes
 utafae_spine,SHIP,"A tiny customs cutter, designed more to intimidate barely-armned merchant ships than for anything more warlike. ",,,
-utafae_prick,SHIP,"The Prick started out as a program to design a fast, heavy interceptor. Scope creep, mismanagement, and the loss of two project leads eventually led to the frigate you see today.",,,
-utafae_bramble,SHIP,"The Bramble was meant to be a small and heavily-armned frigate like the Brawler. She ended up as a...ship...the size of a destroyer but with frigate-grade firepower. She has seen some use as an alternative to combat frieghters. There is evidence-connections and vents and the like-that she was supposed to mount something in her center. Speculation ranges from a large turret to a fighter bay to a Domain-era superweapon.",,,
+utafae_prick,SHIP,"The Prick started out as a program to design a fast, heavy interceptor. Scope creep, mismanagement, and the loss of two project leads eventually led to the frigate you see today.
+
+Pricks are blindingly quick, but can struggle to hold their ground against more durable frigates.",,,
+utafae_bramble,SHIP,"The Bramble was meant to be a small and heavily-armned frigate like the Brawler. She ended up as a...ship...the size of a destroyer but with frigate-grade firepower. She has seen some use as an alternative to combat frieghters. 
+
+There is evidence-connections and vents and the like-that she was supposed to mount something in her center. Speculation ranges from a large turret to a fighter bay to a Domain-era superweapon.",,,
 utafae_briar,SHIP,"The Briar is a heavy frigate, slow and well-armored for its size. ",,,
 utafae_atalanta,SHIP,"The Atalanta is by far the most iconic and successful product of Uta-Fae shipyards, mounting impressive firepower on a fast and agile light cruiser hull. She does, however, lack protection and staying power, and is at her best when she can blaze into range and overwhelmn an enemy through sheer weight of shot.",,,
 utafae_bogoak,SHIP,"The Bogoak is a somewhat more restrained sister of the Atalanta, designed after various incidents...encouraged Uta-Fae leadership to emphasize her potential as an escort.",,,
 utafae_kauri,SHIP,"The Kauri is an attempt by Uta-Fae Shipyards to cash in on their sucessful Atalanta and Bogoak designs, producing a fast and still fairly well-armned combat carrier.",,,
+utafae_boscage,SHIP,"The Boscage is among the largest Domain-era designs of Uta-Fae Shipyards. A fast battlecruiser, she marries a centerline armament with a significant broadside.
+
+Made in UFS's post-Atalanta golden days, they never found much success in selling it, as Domain officials were far less eager to take risks on an untested capital ship than they were with light cruisers.",,,
 utafae_brushclearer,WEAPON,"The signature weapon of the Atalanta-class cruisers, the Brushclearer sends high-velocity high-explosive proximity-fused shells downrange at a respectable rate-so long as the magazine lasts.",,,
 utafae_forestfire,WEAPON,"A fast unguided torpedo, carrying a respectable punch beneath middling armor",,,
 utafae_forestfire_single,WEAPON,"A fast unguided torpedo, carrying a respectable punch beneath middling armor",,,
-utafae_pulse_leafnibbler,WEAPON,"A short-ranged, high-velocity pulse laser capable of emptying out its entire magazine in short order. The name is most likely a reference to the pockmarks it made on test targets, and isn't some sort of dirty joke. Most spacers still think that its some sort of dirty joke.",,,
+utafae_pulse_leafnibbler,WEAPON,"A short-ranged, high-velocity pulse laser capable of emptying out its entire magazine in short order. ",,,
 utafae_pinprick,SHIP,"A fast, long-ranged interceptor, showcasing the original vision of the Prick frigate.",,,

@@ -1,0 +1,29 @@
+{
+  "variantId": "utafae_rind_strike",
+  "hullId": "utafae_rind",
+  "displayName": "Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 7,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "amblaster",
+        "WS0002": "amblaster",
+        "WS0003": "utafae_knotbreaker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

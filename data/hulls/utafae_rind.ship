@@ -1,0 +1,97 @@
+{
+  "hullName": "Rind",
+  "hullId": "utafae_rind",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/utafae_rind.png",
+  "style": "MIDLINE",
+  "height": 117,
+  "width": 100,
+  "center": [50, 52],
+  "collisionRadius": 114,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 102.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "utafae_cruisedrive"
+  ],
+  "builtInWeapons": {
+    "WS0003": "utafae_knotbreaker"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 202,
+      "angle": 75.5,
+      "locations": [32, 26]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 202,
+      "angle": -75.5,
+      "locations": [32, -26]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 4,
+      "angle": 0,
+      "locations": [4, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-52, 15.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-52, -15.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-52, -0],
+      "length": 53,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-52, 0],
+      "length": 53,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    37, -3.5,
+    65, -22.5,
+    29.5, -49,
+    21, -49.5,
+    -53, -23.5,
+    -52, 0,
+    -52, -0,
+    -53, 23.5,
+    21, 49.5,
+    29.5, 49,
+    65, 22.5,
+    37, 3.5
+  ]
+}

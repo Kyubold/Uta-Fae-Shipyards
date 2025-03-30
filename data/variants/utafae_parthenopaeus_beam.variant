@@ -1,0 +1,29 @@
+{
+  "variantId": "utafae_parthenopaeus_beam",
+  "hullId": "utafae_parthenopaeus",
+  "displayName": "Beam",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "taclaser",
+        "WS0003": "taclaser",
+        "WS0004": "taclaser",
+        "WS0005": "utafae_brushclearer",
+        "WS0006": "utafae_brushclearer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

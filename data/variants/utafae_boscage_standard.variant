@@ -1,0 +1,63 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 20,
+    "fluxVents": 13,
+    "goalVariant": false,
+    "hullId": "utafae_boscage",
+    "hullMods": [],
+    "permaMods": [
+        "utafae_cruisedrive"
+    ],
+    "quality": 0.0,
+    "variantId": "utafae_boscage_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "hammerrack",
+                "WS 002": "hammer",
+                "WS 001": "hammer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 022": "multineedler",
+                "WS 023": "multineedler",
+                "WS 021": "multineedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "utafae_brushclearer",
+                "WS 007": "utafae_brushclearer",
+                "WS 006": "utafae_brushclearer",
+                "WS 008": "utafae_brushclearer",
+                "WS 010": "utafae_brushclearer",
+                "WS 012": "utafae_brushclearer",
+                "WS 014": "utafae_brushclearer",
+                "WS 020": "utafae_brushclearer",
+                "WS 019": "utafae_brushclearer",
+                "WS 013": "utafae_brushclearer",
+                "WS 011": "utafae_brushclearer",
+                "WS 009": "utafae_brushclearer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "utafae_leafnibbler",
+                "WS 017": "utafae_leafnibbler",
+                "WS 018": "utafae_leafnibbler",
+                "WS 016": "utafae_leafnibbler",
+                "WS 003": "utafae_leafnibbler",
+                "WS 004": "utafae_leafnibbler"
+            }
+        }
+    ]
+}

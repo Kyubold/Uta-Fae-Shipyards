@@ -3,7 +3,7 @@
 	"name":"Uta-Fae Shipyards",
 	"author":"Utafae",	
 	"version":"0.1",
-	"description":"A collection of kitbashed midline ships.",
-	"gameVersion":"0.97a-RC11",
+	"description":"A collection of kitbashed ships, weapons, and hullmods. Mostly, but not entirely Midline.",
+	"gameVersion":"0.98a-RC5",
 	"jars":["jars/UtaFae.jar"],
 }

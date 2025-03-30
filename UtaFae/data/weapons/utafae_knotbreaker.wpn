@@ -1,0 +1,48 @@
+{
+  "id": "utafae_knotbreaker",
+  "specClass": "projectile",
+  "projectileSpecId": "utafae_knotbreaker_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/utafae_knotbreaker_builtin_energy_hardpoint.png",
+  "turretGlowSprite": "graphics/weapons/utafae_knotbreaker_builtin_energy_glow.png",
+  "hardpointSprite": "graphics/weapons/utafae_knotbreaker_builtin_energy_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/utafae_knotbreaker_builtin_energy_glow.png",
+  "glowColor": [
+    160,
+    181,
+    200,
+    255
+  ],
+  "turretOffsets": [
+    26,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    39.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 15,
+    "particleSizeMin": 20,
+    "particleSizeRange": 10,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "heavy_blaster_fire"
+}

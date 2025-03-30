@@ -10,11 +10,15 @@
 		
 		"utafae_briar_escort":10,
 		"utafae_prick_standard":10,
+		"utafae_rind_standard":5,
+		"utafae_rind_strike":5,
 		
 	},
 	"combatMedium":{
 		
-
+		"utafae_bough_standard":10,
+		"utafae_parthenopaeus_standard":5,
+		"utafae_parthenopaeus_beam":5,
 		
 	},
 	"combatLarge":{
@@ -48,5 +52,10 @@
 	"carrierSmall":{
 		"utafae_kauri_standard":10,
 	},
+	
+	"personnelMedium":{
+		"utafae_hitchhiker_standard":10,
+	},
+
 	
 }

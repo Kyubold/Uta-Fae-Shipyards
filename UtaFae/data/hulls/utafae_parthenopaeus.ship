@@ -1,0 +1,134 @@
+{
+  "hullName": "Parthenopaeus",
+  "hullId": "utafae_parthenopaeus",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/utafae_parthenopaeus.png",
+  "style": "MIDLINE",
+  "height": 166,
+  "width": 73,
+  "center": [37, 70],
+  "collisionRadius": 129.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 118,
+  "viewOffset": 0,
+  "builtInMods": [
+    "utafae_cruisedrive"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [42, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 307,
+      "angle": 0,
+      "locations": [61.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -129.5,
+      "locations": [-29, -22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 129.5,
+      "locations": [-29, 22]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [22.5, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 264,
+      "angle": 180,
+      "locations": [-29.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57, -29.5],
+      "length": 51.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-57, 29.5],
+      "length": 51.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-68.5, -13],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-68.5, 13],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69, -4.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-69, 4.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -68, -37.5,
+    8, -33,
+    69, -22,
+    89, -9,
+    95.5, -0.5,
+    89, 9,
+    69, 22,
+    8, 33,
+    -68, 37.5
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "variantId": "utafae_briar_escort",
+  "hullId": "utafae_briar",
+  "displayName": "Escort",
+  "goalVariant": false,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "utafae_cruisedrive",
+    "escort_package"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "utafae_leafnibbler",
+        "WS0002": "utafae_leafnibbler",
+        "WS0003": "utafae_leafnibbler",
+        "WS0004": "utafae_leafnibbler",
+        "WS0005": "utafae_leafnibbler",
+        "WS0006": "utafae_leafnibbler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

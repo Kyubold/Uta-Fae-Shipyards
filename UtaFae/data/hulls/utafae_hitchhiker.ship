@@ -1,0 +1,133 @@
+{
+  "hullName": "Hitchhiker",
+  "hullId": "utafae_hitchhiker",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/utafae_hitchhiker.png",
+  "style": "LOW_TECH",
+  "height": 131,
+  "width": 118,
+  "center": [59.5, 54],
+  "collisionRadius": 114,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 102.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ground_support",
+    "utafae_utanayPatternArmor"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [66, 0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [39.5, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [39.5, 29]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 207,
+      "angle": 180,
+      "locations": [-36.5, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-53.5, 36.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-53.5, -36.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54, 24.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54, -24.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-53.5, 9],
+      "length": 35,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-53.5, -9],
+      "length": 35,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54, -0],
+      "length": 44,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -54, -49.5,
+    -19.5, -54.5,
+    -1.5, -60.5,
+    11.5, -39,
+    28.5, -40,
+    47, -35.5,
+    50.5, -23,
+    76, -15,
+    76, 0.5,
+    76, 15,
+    50.5, 23,
+    47, 35.5,
+    28.5, 40,
+    11.5, 39,
+    -1.5, 60.5,
+    -19.5, 54.5,
+    -54, 49.5
+  ]
+}

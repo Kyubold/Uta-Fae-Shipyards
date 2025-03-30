@@ -1,0 +1,79 @@
+{
+  "hullName": "Spine",
+  "hullId": "utafae_spine",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/utafae_Spine.png",
+  "style": "MIDLINE",
+  "height": 95,
+  "width": 60,
+  "center": [26.5, 41],
+  "collisionRadius": 65.5,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 61,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 359,
+      "angle": 0,
+      "locations": [20, 2.5]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [46, 2.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 359,
+      "angle": 0,
+      "locations": [-11, -23.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, 12],
+      "length": 16.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-38, -8],
+      "length": 16.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-38, 2],
+      "length": 22.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -4.5, -29,
+    -39, -10.5,
+    -37, 1.5,
+    -39.5, 15,
+    -11.5, 22.5,
+    26, 21,
+    49, 6,
+    44, -28.5
+  ]
+}

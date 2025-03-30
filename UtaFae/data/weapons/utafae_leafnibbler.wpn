@@ -1,0 +1,49 @@
+{
+  "id": "utafae_leafnibbler",
+  "specClass": "projectile",
+  "projectileSpecId": "utafae_leafnibbler_pulse_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/utafae_leafnibbler_small_energy_turret.png",
+  "turretGlowSprite": "graphics/weapons/utafae_leafnibbler_small_energy_glow.png",
+  "hardpointSprite": "graphics/weapons/utafae_leafnibbler_small_energy_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/utafae_leafnibbler_small_energy_glow.png",
+  "glowColor": [
+    196,
+    156,
+    74,
+    225
+  ],
+  "turretOffsets": [
+    7.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    11.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 12,
+    "spread": 0,
+    "particleSizeMin": 2,
+    "particleSizeRange": 12,
+    "particleDuration": 0.12,
+    "particleCount": 4,
+    "particleColor": [
+      196,
+      156,
+      74,
+      255
+    ]
+  },
+  "fireSoundTwo": "autopulse_laser_fire"
+}

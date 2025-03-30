@@ -1,0 +1,32 @@
+{
+  "variantId": "utafae_bogoak_standard",
+  "hullId": "utafae_bogoak",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 26,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "utafae_leafnibbler",
+        "WS0002": "utafae_leafnibbler",
+        "WS0003": "utafae_brushclearer",
+        "WS0004": "utafae_brushclearer",
+        "WS0005": "lightdualac",
+        "WS0006": "lightdualac",
+        "WS0007": "utafae_leafnibbler",
+        "WS0008": "utafae_leafnibbler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

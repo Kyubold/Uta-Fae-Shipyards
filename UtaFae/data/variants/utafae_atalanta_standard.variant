@@ -1,0 +1,33 @@
+{
+  "variantId": "utafae_atalanta_standard",
+  "hullId": "utafae_atalanta",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 16,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "utafae_cruisedrive"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "utafae_brushclearer",
+        "WS0002": "utafae_brushclearer",
+        "WS0003": "utafae_brushclearer",
+        "WS0004": "utafae_brushclearer",
+        "WS0005": "heavyac",
+        "WS0006": "heavyac",
+        "WS0007": "utafae_leafnibbler",
+        "WS0008": "utafae_leafnibbler",
+        "WS0009": "sabot",
+        "WS0010": "sabot"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

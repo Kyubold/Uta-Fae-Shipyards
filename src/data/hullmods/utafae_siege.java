@@ -16,17 +16,17 @@ import com.fs.starfarer.api.combat.WeaponAPI.WeaponType;
 import com.fs.starfarer.api.combat.listeners.WeaponBaseRangeModifier;
 import com.fs.starfarer.api.loading.WeaponSlotAPI;
 
-import data.hullmods.utafae_siege.utafaeSiegeBaseModifier;
+//import data.hullmods.utafae_siege.utafaeSiegeBaseModifier;
 
 public class utafae_siege extends BaseHullMod {
 
-	float baseRangeBonus = 100;
-	float baseRangePenalty = 100;
+	float baseRangeBonus = 100f;
+	float baseRangePenalty = 100f;
 
-	float rangeMult = 100;
-	float velocityMult = 25;
+	float rangeMult = 100f;
+	float velocityMult = 30f;
 
-	float fluxPenalty = 40;
+	float fluxPenalty = 40f;
 
 	public String getDescriptionParam(int index, HullSize hullSize) {
 		if (index == 0)
@@ -59,10 +59,63 @@ public class utafae_siege extends BaseHullMod {
 		float medium = baseRangePenalty;
 		float large = baseRangeBonus;
 
-		ship.addListener(new utafaeSiegeBaseModifier(small, medium, large));
+		ship.addListener(new RangefinderRangeModifier(small, medium, 1000));
 	}
 
-	public static class utafaeSiegeBaseModifier implements WeaponBaseRangeModifier {
+
+
+
+	public static class RangefinderRangeModifier implements WeaponBaseRangeModifier {
+		public float small, medium, max;
+		public RangefinderRangeModifier(float small, float medium, float max) {
+			this.small = small;
+			this.medium = medium;
+			this.max = max;
+		}
+		
+		public float getWeaponBaseRangePercentMod(ShipAPI ship, WeaponAPI weapon) {
+			return 0;
+		}
+		public float getWeaponBaseRangeMultMod(ShipAPI ship, WeaponAPI weapon) {
+			return 1f;
+		}
+		public float getWeaponBaseRangeFlatMod(ShipAPI ship, WeaponAPI weapon) {
+//			if (weapon.getSlot() == null || weapon.getSlot().getWeaponType() != WeaponType.BALLISTIC) {
+//				return 0f;
+//			}
+			if (weapon.getSpec() == null) {
+				return 0f;
+			}
+			if (weapon.getSpec().getMountType() != WeaponType.BALLISTIC && 
+					weapon.getSpec().getMountType() != WeaponType.HYBRID &&
+					weapon.getSpec().getMountType() != WeaponType.ENERGY) {
+				return 0f;
+			}
+			
+			
+			float bonus = 0;
+			if (weapon.getSize() == WeaponSize.SMALL) {
+				bonus = small;
+			} else if (weapon.getSize() == WeaponSize.MEDIUM) {
+				bonus = medium;
+			} else if (weapon.getSize() == WeaponSize.LARGE){
+				bonus = medium * -1;
+			}
+			
+			if (bonus == 0f) return 0f;
+			
+			float base = weapon.getSpec().getMaxRange();
+			if (base + bonus > max) {
+				bonus = max - base;
+			}
+			if (bonus < 0) bonus = 0;
+			return bonus;
+		}
+	}
+
+
+	/* 
+	 * public static class utafaeSiegeBaseModifier implements WeaponBaseRangeModifier {
 		public float small, medium, large;
 
 		public utafaeSiegeBaseModifier(float small, float medium, float large) {
@@ -86,28 +139,28 @@ public class utafae_siege extends BaseHullMod {
 			if (weapon.getSize() == WeaponSize.SMALL) {
 				bonus = small;
 			} else if (weapon.getSize() == WeaponSize.MEDIUM) {
-				bonus = medium;
-			} else if (weapon.getSize() == WeaponSize.LARGE){
+				bonus =  medium;
+			} else {
 				bonus = large;
 			}
 
-			if (bonus == 0f) return 0f;
-			if (bonus < 0) bonus = 0;
+			bonus += weapon.getSpec().getMaxRange();
 			return bonus;
 
 		}
-
-		@Override
 		public float getWeaponBaseRangeMultMod(ShipAPI arg0, WeaponAPI arg1) {
 
 			return 0;
 		}
 
-		@Override
+
 		public float getWeaponBaseRangePercentMod(ShipAPI arg0, WeaponAPI arg1) {
 			return 1f;
 		}
 	}
+	 * 
+	*/
+	
 
 	@Override
 	public boolean isApplicableToShip(ShipAPI ship) {

@@ -1,0 +1,41 @@
+id,type,text1,text2,text3,notes
+utafae_spine,SHIP,"A tiny customs cutter, designed more to intimidate barely-armned merchant ships than for anything more warlike. ",,,
+utafae_prick,SHIP,"The Prick started out as a program to design a fast, heavy interceptor. Scope creep, mismanagement, and the loss of two project leads eventually led to the frigate you see today.
+
+Pricks are blindingly quick, but can struggle to hold their ground against more durable frigates.",,,
+utafae_bramble,SHIP,"The Bramble was meant to be a small and heavily-armned frigate like the Brawler. She ended up as a...ship...the size of a destroyer but with frigate-grade firepower. She has seen some use as an alternative to combat frieghters. 
+
+There is evidence-connections and vents and the like-that she was supposed to mount something in her center. Speculation ranges from a large turret to a fighter bay to a Domain-era superweapon.",,,
+utafae_briar,SHIP,"The Briar is a heavy frigate, slow and well-armored for its size. ",,,
+utafae_atalanta,SHIP,"The Atalanta is by far the most iconic and successful product of Uta-Fae shipyards, mounting impressive firepower on a fast and agile light cruiser hull. She does, however, lack protection and staying power, and is at her best when she can blaze into range and overwhelmn an enemy through sheer weight of shot.",,,
+utafae_bogoak,SHIP,"The Bogoak is a somewhat more restrained sister of the Atalanta, designed after various incidents...encouraged Uta-Fae leadership to emphasize her potential as an escort.",,,
+utafae_kauri,SHIP,"The Kauri is an attempt by Uta-Fae Shipyards to cash in on their sucessful Atalanta and Bogoak designs, producing a fast and still fairly well-armned combat carrier.",,,
+utafae_boscage,SHIP,"The Boscage is among the largest Domain-era designs of Uta-Fae Shipyards. A fast battlecruiser, she marries a centerline armament with a significant broadside.
+
+Made in UFS's post-Atalanta golden days, they never found much success in selling it, as Domain officials were far less eager to take risks on an untested capital ship than they were with light cruisers.",,,
+utafae_brushclearer,WEAPON,"The signature weapon of the Atalanta-class cruisers, the Brushclearer sends high-velocity high-explosive proximity-fused shells downrange at a respectable rate-so long as the magazine lasts.",,,
+utafae_forestfire,WEAPON,"A fast unguided torpedo, carrying a respectable punch beneath middling armor",,,
+utafae_forestfire_single,WEAPON,"A fast unguided torpedo, carrying a respectable punch beneath middling armor",,,
+utafae_forestfire_pod,WEAPON,"A rack of fast unguided torpedos, carrying a respectable punch beneath middling armor",,,
+utafae_pulse_leafnibbler,WEAPON,"A short-ranged, high-velocity pulse laser capable of emptying out its entire magazine in short order. ",,,
+utafae_pinprick,SHIP,"A fast, long-ranged interceptor, showcasing the original vision of the Prick frigate.",,,
+utafae_rind,SHIP,"The Rind was never meant for combat. Instead, she was a testbed for several developing technologies and techniques-armor plating, new shield generator componants, and-most obviously-a blaster cannon.
+
+Her experimental nature produces several shortcomings and oddities, such as a flux capacity too lower to fire off an entire reload of her main weapon.
+
+Still, a post-collapse sector found that it could find use for a reasonably fast, well-armored frigate, and so the design has seen a renaissance of sorts. ",,,
+utafae_hitchhiker,SHIP,"A fast, well-armored, but unshielded assault craft, the Hitchiker was designed to swiftly deliver 
+
+Lightly armned for a destroyer, the Hitchhiker is perhaps better treated as a combat logistics ship, rather than a pure combat build. 
+
+This absolutely ancient design speaks to the long history of Utanay Heavy Industries.",,,
+utafae_knotbreaker,WEAPON,"A prototype blaster, the Knotbreaker offers high-damage bursts, in between long reloads. It fires an extremely fast projectile that disappates at far too short a range to have been deemed a success at the time.",,,
+utafae_parthenopaeus,SHIP,"The Parthenopaeus is an attempt to downscale the sucessful Atalanta design to that of an average destroyer. She is somewhat analogous to a Hammerhead, albeit trading some toughness for speed.
+
+
+All attempts to refer to her as the ""Smollanta"" should be met with lethal force.
+
+",,,
+utafae_bough,SHIP,The Bough represents an attempt to make a dedicated siege artillery ship in a relatively small package.,,,
+utafae_leaffall,WEAPON,"A clear representative of Uta-Fae weapon sensibilities, this gun aims to empty its magazines as quickly as possible, for good and ill.",,,
+utafae_leafnibbler,WEAPON,"This pulse laser is optimized for sudden, swift barrages at close range. The idea is to drown out a barrage of missiles or flight of fighters-and hopefully reload before the next group arrives.",,,

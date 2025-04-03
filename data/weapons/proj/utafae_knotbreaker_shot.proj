@@ -7,8 +7,8 @@
 	"length":8.0,
 	"width":6.0,
 	"fadeTime":0.25,
-	"fringeColor":[180,201,220,255],
-	"coreColor":[160,181,200,200],
+	"fringeColor":[229,137,129,255],
+	"coreColor":[209,117,109,200],
 	"textureType":"SMOOTH",  # only needed for BEAM spawnType
 	#"textureType":["graphics/fx/emp_arcs.png","graphics/fx/emp_arcs.png"],
 	"textureScrollSpeed":-256.0,

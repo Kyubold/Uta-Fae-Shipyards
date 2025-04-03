@@ -1,0 +1,18 @@
+
+0.2b
+
+-new ships:
+
+
+
+-new weapons:
+
+
+-changes and fixes
+--Knotbreaker range increased (400 --> 450)
+--Hitchhiker now has mounts for its canister flak
+--Forestfire Torpedo refire delay increased (0.25 --> 1)
+
+
+
+

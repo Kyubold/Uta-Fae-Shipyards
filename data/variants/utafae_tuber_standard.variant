@@ -1,0 +1,37 @@
+{
+  "variantId": "utafae_tuber_standard",
+  "hullId": "utafae_tuber",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 18,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "utafae_leafnibbler",
+        "WS0002": "utafae_leafnibbler",
+        "WS0003": "utafae_leafnibbler",
+        "WS0004": "utafae_leafnibbler",
+        "WS0005": "utafae_leafnibbler",
+        "WS0006": "utafae_leafnibbler",
+        "WS0007": "utafae_leafnibbler",
+        "WS0008": "utafae_leafnibbler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "heavyac",
+        "WS0010": "heavyac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

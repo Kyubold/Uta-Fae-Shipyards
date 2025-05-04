@@ -9,15 +9,22 @@
   "permaMods": [],
   "hullMods": [
     "utafae_cruisedrive",
-    "escort_package"
+    "escort_package",
+    "pointdefenseai"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "utafae_leafnibbler",
-        "WS0002": "utafae_leafnibbler",
+        "WS0001": "irpulse",
+        "WS0002": "irpulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0003": "utafae_leafnibbler",
         "WS0004": "utafae_leafnibbler",
         "WS0005": "utafae_leafnibbler",

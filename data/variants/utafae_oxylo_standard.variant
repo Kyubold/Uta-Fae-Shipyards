@@ -1,0 +1,56 @@
+{
+  "variantId": "utafae_oxylo_standard",
+  "hullId": "utafae_oxylo",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "utafae_leafnibbler",
+        "WS0002": "utafae_leafnibbler",
+        "WS0003": "utafae_leafnibbler",
+        "WS0004": "utafae_leafnibbler",
+        "WS0005": "utafae_leafnibbler",
+        "WS0006": "utafae_leafnibbler",
+        "WS0007": "utafae_leafnibbler",
+        "WS0008": "utafae_leafnibbler",
+        "WS0009": "pdburst",
+        "WS0010": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "irpulse",
+        "WS0012": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "heavymortar",
+        "WS0014": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "utafae_trunkcrusher"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "hoplon_wing"
+  ]
+}

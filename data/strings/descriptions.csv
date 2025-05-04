@@ -6,7 +6,9 @@ Pricks are blindingly quick, but can struggle to hold their ground against more 
 utafae_bramble,SHIP,"The Bramble was meant to be a small and heavily-armned frigate like the Brawler. She ended up as a...ship...the size of a destroyer but with frigate-grade firepower. She has seen some use as an alternative to combat frieghters. 
 
 There is evidence-connections and vents and the like-that she was supposed to mount something in her center. Speculation ranges from a large turret to a fighter bay to a Domain-era superweapon.",,,
-utafae_briar,SHIP,"The Briar is a heavy frigate, slow and well-armored for its size. ",,,
+utafae_briar,SHIP,"The Briar is a heavy frigate, slow and well-armored for its size.
+
+One of the fist projects after Utanay-Arifae merger, it combines the former's armor with the latter's engine and weaponry design.",,,
 utafae_atalanta,SHIP,"The Atalanta is by far the most iconic and successful product of Uta-Fae shipyards, mounting impressive firepower on a fast and agile light cruiser hull. She does, however, lack protection and staying power, and is at her best when she can blaze into range and overwhelmn an enemy through sheer weight of shot.",,,
 utafae_bogoak,SHIP,"The Bogoak is a somewhat more restrained sister of the Atalanta, designed after various incidents...encouraged Uta-Fae leadership to emphasize her potential as an escort.",,,
 utafae_kauri,SHIP,"The Kauri is an attempt by Uta-Fae Shipyards to cash in on their sucessful Atalanta and Bogoak designs, producing a fast and still fairly well-armned combat carrier.",,,
@@ -29,8 +31,10 @@ utafae_hitchhiker,SHIP,"A fast, well-armored, but unshielded assault craft, the 
 Lightly armned for a destroyer, the Hitchhiker is perhaps better treated as a combat logistics ship, rather than a pure combat build. 
 
 This absolutely ancient design speaks to the long history of Utanay Heavy Industries.",,,
-utafae_knotbreaker,WEAPON,"A prototype blaster, the Knotbreaker offers high-damage bursts, in between long reloads. It fires an extremely fast projectile that disappates at far too short a range to have been deemed a success at the time.",,,
-utafae_parthenopaeus,SHIP,"The Parthenopaeus is an attempt to downscale the sucessful Atalanta design to that of an average destroyer. She is somewhat analogous to a Hammerhead, albeit trading some toughness for speed.
+utafae_knotbreaker,WEAPON,"A prototype blaster, the Knotbreaker offers high-damage bursts, in between long reloads. It fires an extremely fast projectile at short ranges.
+
+It was generally considered a failiure, due to its plasma projectile breaking up too quickly at high speeds.",,,
+utafae_parthenopaeus,SHIP,"The Parthenopaeus is an attempt to downscale the sucessful Atalanta design to that of an average destroyer. A fast and nimble ship, more suited to skirmishes than to brawls.
 
 
 All attempts to refer to her as the ""Smollanta"" should be met with lethal force.
@@ -39,3 +43,57 @@ All attempts to refer to her as the ""Smollanta"" should be met with lethal forc
 utafae_bough,SHIP,The Bough represents an attempt to make a dedicated siege artillery ship in a relatively small package.,,,
 utafae_leaffall,WEAPON,"A clear representative of Uta-Fae weapon sensibilities, this gun aims to empty its magazines as quickly as possible, for good and ill.",,,
 utafae_leafnibbler,WEAPON,"This pulse laser is optimized for sudden, swift barrages at close range. The idea is to drown out a barrage of missiles or flight of fighters-and hopefully reload before the next group arrives.",,,
+utafae_gravitysurge,SHIP_SYSTEM,"Uses a series of gravitational fluctuations to hurl the ship in a given direction, also briefly increasing maneuverability.
+",,,
+utafae_gravitonwavecannon,SHIP_SYSTEM,"Sends forth a wave of gravitons, sweeping away and damaging all in its path.",,,
+utafae_forestfire_storm,WEAPON,"An excess of fast unguided torpedos, carrying a respectable punch beneath middling armor",,,
+utafae_trunkcrusher,WEAPON,"A modified Gauss Cannon, capable of outputting impressive burst damage at medium ranges.",,,
+utafae_snagsnap_srm,WEAPON,"Snagsnap missiles are small and agile, with a high top speed, but have a relatively low starting speed and acceleration, along with a surprisingly high flight time for their size.
+
+Often compared to the more popular Swarmer missiles, Snagsnaps offer more total payload in one fewer missile, at the cost of a slightly more demanding installation footprint. Ultimately, its their bipolar speeds that prevent wider adoption. ",,,
+utafae_uprooter,WEAPON,"A large pulse laser, offering respectable firepower for its flux, at a steady rate of fire.
+
+The Uprooter is anathema to Uta-Faean design philosophy. Devoid of the usual magazine dependence, it offers steady, reliable performance. Only its relatively high projectile velocity and somewhat low range mark it as a product of their engineering. 
+
+Some speculate that their original plans were scrapped, after a rival released the Auropulse Laser.",,,
+utafae_derelict_scout,SHIP,"A fairly tough heavy fighter capable of putting out respectable anti-armor damage.
+
+While not generally well-known, the Utanay drone program was reasonably successful in some markets. The Scout showcases their simple, no-nonsense ancient design philosophy.",,,
+utafae_derelict_ranger,SHIP,"An Utanay drone carrier. Tough, and armned enough for combat.",,,
+utafae_derelict_curator,SHIP,"An Utanay drone designed for forward firepower. 
+
+The original design did not have its side-mounted turrets, which seem to be part of an almost cancerous growth.",,,
+utafae_derelict_freeholder,SHIP,An Utanay drone largely built around its medium composite hardpoint.,,,
+utafae_canopy,SHIP,"This rather stubby capital ship posesses wide firing arcs, as well as its signature Graviton Wave Cannon, allowing it to sweep away distractions as the battle orbits around it-almost literally, with its Gravity Field Generator shaping the nearby battlespace.
+
+Like treecover protects a forest, the Canopy protects fleets, even systems, lesser ships darting in and out of its gravitational grasp.
+
+She was meant, originally, as both a replacement for the aging Dominator, and as a rival to the then-rumoured Champion. However, exaggerated reports of the latter’s armor and flux systems led to the Uta-Faean R&D department’s perennial traditions: massive bloat and feature creep.
+
+They started working under the false assumption that the next generation of cruisers would be more like small battlecruisers. By the time the Champion was unveiled, and the rumors quelled, the Canopy was already nearly complete.
+
+The Canopy did attract some interest in both its intended role, and as a proper battlecruiser, and the Champion’s infamous legal troubles only helped it. Truly, it seemned that Uta-Fae Shipyards was finally free of its long funk, and that it was the beginning of a bright new-”What do you mean, ‘The Gates Collapsed?’”",,,
+utafae_oxylo,SHIP,"Armned with a modified Gauss Cannon, and hosting a singular fighter bay, the Oxylo is an interesting take on a mid-range cruiser.
+
+While less famous than the later Atalanta, the Oxylo helped define what an Uta-Faean cruiser should even look like. The experimental centerline fighter bay was considered a dead end, but her combination of medium ballistic and small energy turrets (not to mention her lack of missiles) became the standard going forwards.
+",,,
+utafae_tuber,SHIP,"The Tuber's design hinges around a simple plan: point the front guns towards an enemy, and let its numerous secondaries take care of everything else.",,,
+utafae_frond,SHIP,"The Frond carries impressive missile armament for its size, but its poor flux, armor, and uninspiring non-missile weaponry leaves it unsuitable as a mainline combatent.
+
+The postergirl of the Uta-Faean Interim Missile Equiptment Program, the Frond always manages to catch the attention of potential captains, who dream of unleashing terrible barrages of death upon unwary foes. Unfortunately, any who find themselves piloting a Frond soon find that it takes a skilled crew to even hope to attempt such a feat.",,,
+utafae_blossom,SHIP,"A small, tough frigate, carrying a pair of medium turrets.",,,
+utafae_awn,SHIP,"The Awn is perhaps the least dramatic of Uta-Fae frigates, showcasing reasonable speed and durability for its size, while its modest armament is partially made up for by its offensive system.
+
+The Awn is part of the Uta-Faean Interim Missile Equiptment Program, an attempt by the company to make up for the relative lack of missile weapons among its existing offerings-something that had led to a few complaints and lost sales.
+
+The Awn itself sold quite well at the time, being seen as a reasonable upgrade from militarized kites for a moderate price increase.",,,
+utafae_hippomenes,SHIP,"A frigate derived from the Atalanta family of ships, the Hippomenes prefers fast, brief skirmishes, ideally overwhelming its prey with missiles and its Accelerated Ammo Feeders.
+
+The Hippomenes and her twin class, Melanion, were both born out of the Atalanta Minimization Program, a nearly-sisyphean work of madness and hubris. The project's lead shipwright quickly found that they would never fit the standard ballistic/energy weapon split on such a small hull, and so the design was split, with the Hippomenes inheriting the standard ammunition feeders, and fitting in unusual (by Uta-Fae standards) small ballistic turrets.
+
+
+",,,
+utafae_melanion,SHIP,"A frigate derived from the Atalanta family of ships, the Melanion prefers fast, brief skirmishes, ideally overwhelming its prey with missiles and its High Energy Focus.
+
+The Melanion and her twin class, Hippomenes, were both born out of the Atalanta Minimization Program, a nearly-sisyphean work of madness and hubris. The project's lead shipwright quickly found that they would never fit the standard ballistic/energy weapon split on such a small hull, and so the design was split, with the Melanion inheriting the standard small energy turrets, and replacing the ammunition feeders with energy weapon foci.",,,
+,,,,,

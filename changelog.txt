@@ -1,18 +1,44 @@
 
-0.2b
+0.3
 
 -new ships:
-
-
+--Canopy-class pocket battleship
+--Oxylo-class artillery cruiser
+--Tuber-class destroyer
+--Frond-class missile support frigate
+--Blossom-class frigate
+--Awn-class frigate
+--Hippomenes/Melanion-class frigates
+--[Redacted]
 
 -new weapons:
+--Large forestfire "storm" mount
+--Trunkcrusher Gauss Repeater
+--Uprooter Pulse Laser
+--Snagsnap missiles
 
+-hullmods and ship systems:
+--Fixed incorrect text for Utanay Pattern Armor
+--Utanay Pattern Armor now gives Energy damage vulnerability instead of increased supply use
+--Cruise Drive speed bonus changed to 40/35/30/25
+--New hullmod: Graviton Field Generator, slows nearby ships and missiles, speeds up nearby friendly ships and missiles
+
+
+--New ship system:  Gravity Surge, throws ship towards the mouse pointer, briefly boosts maneuverability
 
 -changes and fixes
 --Knotbreaker range increased (400 --> 450)
 --Hitchhiker now has mounts for its canister flak
---Forestfire Torpedo refire delay increased (0.25 --> 1)
+--Forestfire Torpedo refire delay increased (0.25 --> 2)(all mounts)
+--Forestfire Pod burst size increased (1 ---> 2)
+--Brushclearer ammo regeneration reduced (2/sec ---> 1/sec)
+--Brushclearer flux cost reduced (100 --->  75)
 
 
+--Briar completely redesigned (same stats, modified weapon placements, completely new sprite, various minor changes)
+--Changed Briar variant
 
+
+-other
+--Added a mission to test a couple ships.
 

@@ -1,0 +1,159 @@
+{
+  "hullName": "Curator",
+  "hullId": "utafae_derelict_curator",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/utafae_derelict_freeholder.png",
+  "style": "LOW_TECH",
+  "height": 149,
+  "width": 133,
+  "center": [57, 81.5],
+  "collisionRadius": 210.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 189,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": 114.5,
+      "locations": [-54.5, 45.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": 82.5,
+      "locations": [-41.5, 45.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 228,
+      "angle": -94.5,
+      "locations": [-14.5, -64.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 6,
+      "locations": [10.5, -44.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [63.5, 39.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [63.5, -39.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [63, -6]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [63, 6]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [51.5, 24]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [51.5, -24]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-81.5, 31.5],
+      "length": 69,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81.5, -31.5],
+      "length": 69,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81.5, 10.5],
+      "length": 69,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-81.5, -10.5],
+      "length": 69,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -83.5, 38,
+    -59, 58.5,
+    15, 52.5,
+    57, 51.5,
+    68.5, 44.5,
+    68.5, -44.5,
+    57, -51.5,
+    15, -52.5,
+    -10.5, -76.5,
+    -25, -75.5,
+    -25, -49,
+    -67, -47.5,
+    -83.5, -38
+  ]
+}

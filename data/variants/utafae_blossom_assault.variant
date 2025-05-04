@@ -1,0 +1,29 @@
+{
+  "variantId": "utafae_blossom_assault",
+  "hullId": "utafae_blossom",
+  "displayName": "Assault",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavyac"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

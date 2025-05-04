@@ -1,0 +1,56 @@
+{
+  "id": "utafae_snagsnap_srm",
+  "specClass": "projectile",
+  "projectileSpecId": "utafae_snagsnap_srm_missile",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/utafae_snagsnap_srm_launcher_base.png",
+  "hardpointSprite": "graphics/weapons/utafae_snagsnap_srm_launcher_base.png",
+  "turretOffsets": [
+    8.5,
+    0,
+    8.5,
+    3,
+    8.5,
+    -3
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    13,
+    0,
+    13,
+    3,
+    13,
+    -3
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      130
+    ]
+  },
+  "fireSoundTwo": "swarmer_fire"
+}

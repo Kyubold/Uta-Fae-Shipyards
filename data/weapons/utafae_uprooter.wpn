@@ -1,0 +1,49 @@
+{
+  "id": "utafae_uprooter",
+  "specClass": "projectile",
+  "projectileSpecId": "utafae_uprooter_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/utafae_uprooter_large_energy_base.png",
+  "turretGlowSprite": "graphics/weapons/utafae_uprooter_large_energy_glow.png",
+  "hardpointSprite": "graphics/weapons/utafae_uprooter_large_energy_base.png",
+  "hardpointGlowSprite": "graphics/weapons/utafae_uprooter_large_energy_glow.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    225
+  ],
+  "turretOffsets": [
+    37,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    55.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 0,
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      209,
+      117,
+      109,
+      255
+    ]
+  },
+  "fireSoundTwo": "autopulse_laser_fire"
+}

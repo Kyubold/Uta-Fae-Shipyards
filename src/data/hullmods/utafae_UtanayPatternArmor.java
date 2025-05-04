@@ -8,7 +8,10 @@ public class utafae_UtanayPatternArmor extends BaseHullMod {
 
 	public static float ARMOR_MULT = 1.1f;
 	static int armor_bonus = 0;
+
+	public static float ENERGY_DAMAGE_MULT = 1.25f;
 	static float supplyMult = 1.5f;
+
 
 	int addArmorBonus(int size){
 		switch (size) {
@@ -32,9 +35,8 @@ public class utafae_UtanayPatternArmor extends BaseHullMod {
 		}
 	}
 
-	
-	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 
+	int size(HullSize hullSize){
 		int size;
 
 		if(hullSize == HullSize.FRIGATE){
@@ -47,6 +49,16 @@ public class utafae_UtanayPatternArmor extends BaseHullMod {
 			size = 3;
 		}
 
+		return size;
+	}
+
+	
+	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
+
+		int size = size(hullSize);
+
+		
+		stats.getEnergyDamageTakenMult().modifyMult(id, ENERGY_DAMAGE_MULT);
 		armor_bonus = addArmorBonus(size);
 
 		stats.getArmorBonus().modifyFlat(id, armor_bonus);
@@ -58,11 +70,11 @@ public class utafae_UtanayPatternArmor extends BaseHullMod {
 	
 	public String getDescriptionParam(int index, HullSize hullSize) {
 		if (index == 0) return "" + (int) Math.round((ARMOR_MULT - 1 )* 100f) + "%";
-		if (index == 1) return "" + addArmorBonus( - 1);
-		if (index == 2) return "" + addArmorBonus( - 1);
-		if (index == 3) return "" + addArmorBonus( - 1);
-		if (index == 4) return "" + addArmorBonus( - 1);
-		if (index == 5) return "" + (int) Math.round((supplyMult - 1 )* 100f) + "%";
+		if (index == 1) return "" + addArmorBonus(0);
+		if (index == 2) return "" + addArmorBonus(1);
+		if (index == 3) return "" + addArmorBonus( 2);
+		if (index == 4) return "" + addArmorBonus(3);
+		if (index == 5) return "" + (int) Math.round((ENERGY_DAMAGE_MULT - 1 )* 100f) + "%";
 		return null;
 	}
 

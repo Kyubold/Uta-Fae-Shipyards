@@ -1,14 +1,32 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+#fighters
 Pinprick,utafae_pinprick,,Uta-Fae,,,400,50,900,,80,,,500,800,600,125,250,40,FRONT,,45,1,1,,,2,2,,,,,,,,,,,,,,,,0,,,6999
+Scout,utafae_derelict_scout,,Explorarium,,,800,150,400,,100,,,150,100,75,90,90,50,NONE,,90,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,6999
+#ships
 Spine,utafae_spine,Frigate,Uta-Fae,flarelauncher,1,1200,220,1000,80,100,30,,140,80,80,100,125,130,FRONT,,45,0.5,0.9,,,5,10,20,5,1,5,10,4500,7,15,180,0.25,3,1,COMBAT,"utafae_bp, persean, merc, ind, pirates",1,0.4,2,3,6999
 Prick,utafae_prick,Frigate,Uta-Fae,highenergyfocus,4,1400,175,1500,152,160,25,,250,300,200,125,250,160,FRONT,,45,0.4,0.9,,,1,4,5,5,1,5,10,8000,7,20,180,0.25,5,3,COMBAT,"utafae_bp, persean, hegemony, merc, ind",0.8,0.4,2,3,6999
 Bramble,utafae_bramble,Frigate (?),Uta-Fae,flarelauncher,3,3000,500,2500,150,150,70,,80,70,70,80,80,300,FRONT,,90,0.5,0.8,,,10,45,225,50,2,25,10,9000,5,15,240,0.25,10,3,COMBAT,"utafae_bp,  merc, ind",0.6,0.4,2,3,6999
 Briar,utafae_briar,Heavy Frigate,Uta-Fae,highenergyfocus,8,2500,600,2000,160,160,55,,80,50,50,100,100,250,FRONT,,180,0.4,0.8,,,25,40,30,25,2,12,10,20000,5,20,240,0.25,12,5,COMBAT,"utafae_bp, persean, hegemony, merc, ind",0.4,0.4,2,3,6999
-Atalanta,utafae_atalanta,Cruiser,Uta-Fae,ammofeed,12,5500,700,6000,300,300,130,,80,100,80,30,30,550,OMNI,,120,0.4,0.8,,,80,150,80,80,3,26,8,65000,4,10,420,0.25,12,12,COMBAT,"utafae_bp, persean, hegemony, merc, ind",0.3,0.5,2,4,6999
-Bogoak,utafae_bogoak,Cruiser,Uta-Fae,ammofeed,12,5500,700,6500,325,325,130,,80,100,80,30,30,550,OMNI,,120,0.4,0.8,,,80,150,80,80,3,26,8,65000,4,10,420,0.25,12,12,COMBAT,"utafae_bp, persean, hegemony, merc, ind",0.3,0.5,2,4,6999
-Kauri,utafae_kauri,Cruiser,Uta-Fae,ammofeed,12,5000,600,6500,,325,100,2,80,100,80,30,30,550,OMNI,,120,0.4,0.8,,,100,175,125,90,3,30,8,65000,4,10,420,0.25,12,12,"COMBAT, CARRIER","utafae_bp, persean, hegemony, merc, ind",0.3,0.5,2,4,6999
-Boscage,utafae_boscage,Battlecruiser,Uta-Fae,ammofeed,24,1100,1000,18000,720,1000,305,,55,25,20,12,8,2250,FRONT,,210,0.4,0.8,,,350,450,250,250,10,,8,300000,3,15,480,0.25,40,40,COMBAT,"rare_bp, persean, merc, ind",0.5,0.5,2,4,6999
+Atalanta,utafae_atalanta,Cruiser,Uta-Fae,ammofeed,14,5500,700,6000,300,300,130,,80,100,80,30,30,550,OMNI,,120,0.4,0.8,,,80,150,80,80,3,26,8,65000,4,10,420,0.25,12,12,COMBAT,"utafae_bp, persean, hegemony, merc, ind",0.3,0.5,2,4,6999
+Bogoak,utafae_bogoak,Cruiser,Uta-Fae,ammofeed,14,5500,700,6500,325,325,130,,80,100,80,30,30,550,OMNI,,120,0.4,0.8,,,80,150,80,80,3,26,8,65000,4,10,420,0.25,12,12,COMBAT,"utafae_bp, persean, hegemony, merc, ind",0.3,0.5,2,4,6999
+Kauri,utafae_kauri,Cruiser,Uta-Fae,ammofeed,14,5000,600,6500,,325,100,2,80,100,80,30,30,550,OMNI,,120,0.4,0.8,,,100,175,125,90,3,30,8,65000,4,10,420,0.25,12,12,"COMBAT, CARRIER","utafae_bp, persean, hegemony, merc, ind",0.3,0.5,2,4,6999
+Boscage,utafae_boscage,Battlecruiser,Uta-Fae,ammofeed,24,11000,1000,18000,720,1000,305,,55,25,20,12,8,2250,FRONT,,210,0.4,0.8,,,350,450,250,250,10,,8,300000,3,15,480,0.25,40,40,COMBAT,"rare_bp, persean, merc, ind",0.5,0.5,2,4,6999
 Rind,utafae_rind,Frigate,Uta-Fae,highenergyfocus,7,2000,500,2000,160,150,25,,100,100,50,60,100,300,FRONT,,210,0.4,0.7,,,30,40,20,20,1,,10,25000,8,15,180,0.25,6,6,COMBAT,"utafae_bp, persean, hegemony, merc, ind",0.8,0.5,2,3,6999
 Hitchhiker,utafae_hitchhiker,Armored Transport,Uta-Fae,burndrive,9,4500,500,4000,320,300,55,,80,60,30,40,20,400,PHASE,canister_flak,,,,,,40,175,40,60,2,,9,30000,5,13,420,0.25,7,7,"COMBAT, TRANSPORT","utafae_bp,  merc, ind, pirates",0.4,0.5,2,3,6999
 Parthenopaeus,utafae_parthenopaeus,Destroyer,Uta-Fae,ammofeed,10,4000,400,4000,320,300,70,,100,80,60,40,40,350,OMNI,,120,0.4,0.8,,,35,80,40,40,2,,9,30000,6,15,360,0.25,8,8,COMBAT,"utafae_bp, persean, hegemony, merc, ind, pirates",0.6,0.5,2,3,6999
 Bough,utafae_bough,Destroyer,Uta-Fae,flarelauncher_active,12,4500,250,4200,,250,75,,80,40,40,30,30,400,FRONT,,180,0.4,0.8,,,50,75,100,60,2,,9,30000,6,15,480,0.25,9,9,COMBAT,"utafae_bp, persean, hegemony, merc, ind, pirates",0.6,0.4,2,3,6999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#0.3
+Canopy,utafae_canopy,Battlecruiser,Uta-Fae,utafae_gravitonwavecannon,24,12000,1400,16000,,900,190,,40,30,30,60,30,3000,FRONT,,180,0.4,0.9,,,300,400,250,250,10,,8,300000,3,12,720,0.25,32,32,COMBAT,"utafae_bp, persean, merc",0.4,0.4,2,4,6999
+Oxylo,utafae_oxylo,Artillery Cruiser,Uta-Fae,ammofeed,16,7500,1200,10000,,500,125,1,60,60,40,30,30,1000,FRONT,,210,0.4,0.8,,,160,220,125,125,3,,8,100000,4,12,480,0.25,20,20,COMBAT,"utafae_bp, persean, merc, ind, pirates",0.6,0.4,2,3,6999
+Tuber,utafae_tuber,Destroyer,Uta-Fae,utafae_gravitysurge,12,5000,450,6000,,300,90,,90,80,40,30,30,450,FRONT,,300,0.4,0.8,,,60,100,80,60,2,,9,42000,5,15,360,0.25,11,11,COMBAT,"utafae_bp, persean, hegemony, merc, ind, pirates",0.6,0.4,2,3,6999
+Frond,utafae_frond,Missile Frigate,Uta-Fae,utafae_gravitysurge,5,1000,150,1000,,125,45,,100,80,60,40,40,200,FRONT,,120,0.5,0.9,,,20,30,40,20,1,,10,8000,10,15,420,0.25,4,4,COMBAT,"utafae_bp, persean, hegemony, merc, ind, pirates",0.7,0.4,2,3,6999
+Blossom,utafae_blossom,Heavy Frigate,Uta-Fae,ammofeed,7,2500,450,2500,,200,40,,100,80,60,40,40,350,FRONT,,210,0.4,0.8,,,30,50,40,25,1,,10,12000,8,10,420,0.25,5,5,COMBAT,"utafae_bp, persean, hegemony, merc, ind, pirates",0.8,0.4,2,3,6999
+Awn,utafae_awn,Frigate,Uta-Fae,highenergyfocus,4,1000,200,1250,,150,35,,140,120,100,80,80,140,FRONT,,180,0.4,0.9,,,15,25,40,20,1,,10,5000,8,15,360,0.25,3,3,COMBAT,"utafae_bp, persean, hegemony, merc, ind, pirates",1,0.4,2,3,6999
+Hippomenes,utafae_hippomenes,Frigate,Uta-Fae,ammofeed,4,1500,250,1500,,150,40,,120,100,80,60,60,220,OMNI,,120,0.4,0.8,,,20,40,40,25,1,,10,10000,8,10,420,0.25,4,4,COMBAT,"utafae_bp, persean, hegemony, merc, ind, pirates",0.9,0.4,2,3,6999
+Melanion,utafae_melanion,Frigate,Uta-Fae,highenergyfocus,4,1500,250,1500,,150,40,,120,100,80,60,60,220,OMNI,,120,0.4,0.8,,,20,40,40,25,1,,10,10000,8,10,420,0.25,4,4,COMBAT,"utafae_bp, persean, hegemony, merc, ind, pirates",0.9,0.4,2,3,6999
+#derelicts
+Ranger,utafae_derelict_ranger,Drone Combat Carrier,Explorarium,ammofeed,14,12000,1200,8000,,400,125,3,60,40,30,20,20,800,NONE,,90,0,0,,,0,0,120,80,4,,8,140000,7,12,720,0.25,15,15,"COMBAT, CARRIER, UNBOARDABLE","derelict, auto_rec, codex_unlockable",1,0.5,2,5,6999
+Curator,utafae_derelict_curator,Drone ,Explorarium,ammofeed,10,4500,500,4000,,200,90,,80,60,40,40,40,400,NONE,,90,0,0,,,0,0,60,40,2,,9,60000,5,10,360,0.25,10,10,"COMBAT, UNBOARDABLE","derelict, auto_rec, codex_unlockable",1,0.5,2,4,6999
+Freeholder,utafae_derelict_freeholder,Drone,Explorarium,ammofeed,6,1600,250,750,,100,40,,120,100,80,60,60,100,NONE,,90,0,0,,,0,0,20,20,1,,10,15000,4,5,180,0.25,3,3,"COMBAT, UNBOARDABLE","derelict, auto_rec, codex_unlockable",1,0.5,2,3,6999
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

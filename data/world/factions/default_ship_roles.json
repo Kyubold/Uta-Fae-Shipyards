@@ -3,7 +3,17 @@
 	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
 	"combatSmallForSmallFleet":{
 		"utafae_prick_standard":10,
+
+		"utafae_hippomenes_standard":10,
+		"utafae_melanion_standard":10,
+		"utafae_awn_standard":10,
+		"utafae_blossom_picket":3,
+		"utafae_blossom_assault":3,
+		"utafae_blossom_standard":4,
 		
+
+		"utafae_derelict_freeholder_standard":5,
+		"utafae_derelict_freeholder_picket":5,
 		
 	},
 	"combatSmall":{
@@ -12,6 +22,17 @@
 		"utafae_prick_standard":10,
 		"utafae_rind_standard":5,
 		"utafae_rind_strike":5,
+
+		"utafae_hippomenes_standard":10,
+		"utafae_melanion_standard":10,
+		"utafae_awn_standard":10,
+		"utafae_blossom_picket":3,
+		"utafae_blossom_assault":3,
+		"utafae_blossom_standard":4,
+		"utafae_frond_standard":10,
+
+		"utafae_derelict_freeholder_standard":5,
+		"utafae_derelict_freeholder_picket":5,
 		
 	},
 	"combatMedium":{
@@ -19,18 +40,25 @@
 		"utafae_bough_standard":10,
 		"utafae_parthenopaeus_standard":5,
 		"utafae_parthenopaeus_beam":5,
+
+		"utafae_tuber_standard":10,
+
+		"utafae_derelict_curator_standard":5,
+		"utafae_derelict_curator_assault":5,
 		
 	},
 	"combatLarge":{
 		
 		"utafae_atalanta_standard":10,
 		"utafae_bogoak_standard":10,
+		"utafae_oxylo_standard":10,
 		
-		
+		"utafae_derelict_ranger_standard":10,
 	},
 	"combatCapital":{
 		"utafae_bogoak_standard":10,
 		
+		"utafae_canopy_standard":10,
 		
 	},
 	
@@ -51,6 +79,10 @@
 	# carriers
 	"carrierSmall":{
 		"utafae_kauri_standard":10,
+	},
+	"carrierMedium":{
+		"utafae_derelict_ranger_standard":10,
+		
 	},
 	
 	"personnelMedium":{

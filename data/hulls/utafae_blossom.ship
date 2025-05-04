@@ -1,0 +1,85 @@
+{
+  "hullName": "Blossom",
+  "hullId": "utafae_blossom",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/utafae_blossom.png",
+  "style": "MIDLINE",
+  "height": 81,
+  "width": 74,
+  "center": [37, 44],
+  "collisionRadius": 102.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 98.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "utafae_cruisedrive"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 177,
+      "angle": 62.5,
+      "locations": [-0.5, 18]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 177,
+      "angle": -62.5,
+      "locations": [-0.5, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31, -23.5],
+      "length": 36.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-31, 23.5],
+      "length": 36.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-41, -6],
+      "length": 54.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-41, 6],
+      "length": 54.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -41, 11.5,
+    -30, 26.5,
+    -14, 36.5,
+    7.5, 36.5,
+    19, 30.5,
+    32.5, 15,
+    32.5, -15,
+    19, -30.5,
+    7.5, -36.5,
+    -14, -36.5,
+    -30, -26.5,
+    -41, -11.5
+  ]
+}

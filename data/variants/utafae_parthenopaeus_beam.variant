@@ -12,13 +12,19 @@
   ],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0001": "taclaser",
         "WS0002": "taclaser",
         "WS0003": "taclaser",
-        "WS0004": "taclaser",
+        "WS0004": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0005": "utafae_brushclearer",
         "WS0006": "utafae_brushclearer"
       }

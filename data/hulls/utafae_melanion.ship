@@ -1,0 +1,112 @@
+{
+  "hullName": "Melanion",
+  "hullId": "utafae_melanion",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/utafae_hippomenes.png",
+  "style": "MIDLINE",
+  "height": 109,
+  "width": 42,
+  "center": [21, 46.5],
+  "collisionRadius": 101,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 95.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "utafae_cruisedrive",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 326,
+      "angle": 0,
+      "locations": [38, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 286,
+      "angle": 0,
+      "locations": [13, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 286,
+      "angle": 180,
+      "locations": [-26, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 16,
+      "angle": 90,
+      "locations": [-6.5, 16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 16,
+      "angle": -90,
+      "locations": [-6.5, -16]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38.5, 16.5],
+      "length": 22,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-38.5, -16.5],
+      "length": 22,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, 5],
+      "length": 46,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, -5],
+      "length": 46,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -46.5, -10,
+    -38.5, -21,
+    -3, -21.5,
+    42.5, -13,
+    56, -7.5,
+    61.5, -0,
+    56, 7.5,
+    42.5, 13,
+    -3, 21.5,
+    -38.5, 21,
+    -46.5, 10
+  ]
+}

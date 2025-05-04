@@ -4,12 +4,12 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/utafae_Briar.png",
   "style": "MIDLINE",
-  "height": 136,
-  "width": 136,
-  "center": [64, 67],
-  "collisionRadius": 68.5,
-  "shieldCenter": [0, -0],
-  "shieldRadius": 65.5,
+  "height": 108,
+  "width": 102,
+  "center": [51, 50],
+  "collisionRadius": 125,
+  "shieldCenter": [0, 0.5],
+  "shieldRadius": 119,
   "viewOffset": 0,
   "builtInMods": [
     "utafae_cruisedrive"
@@ -20,114 +20,89 @@
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 266,
-      "angle": 41,
-      "locations": [26, 24]
+      "arc": 156,
+      "angle": 43,
+      "locations": [30, 9]
     },
     {
       "id": "WS0002",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 266,
-      "angle": -41,
-      "locations": [26, -24]
+      "arc": 156,
+      "angle": -43,
+      "locations": [30, -9]
     },
     {
       "id": "WS0003",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 229,
-      "angle": 94.5,
-      "locations": [6.5, 37.5]
+      "arc": 160,
+      "angle": 59.5,
+      "locations": [3, 28]
     },
     {
       "id": "WS0004",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 229,
-      "angle": -94.5,
-      "locations": [6.5, -37.5]
+      "arc": 160,
+      "angle": -59.5,
+      "locations": [3, -28]
     },
     {
       "id": "WS0005",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 290,
-      "angle": 180,
-      "locations": [-29, 15.5]
+      "arc": 246,
+      "angle": 109.5,
+      "locations": [-22.5, 28]
     },
     {
       "id": "WS0006",
       "size": "SMALL",
       "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 290,
-      "angle": -180,
-      "locations": [-29, -15.5]
+      "arc": 246,
+      "angle": -109.5,
+      "locations": [-22.5, -28]
     }
   ],
   "engineSlots": [
     {
-      "location": [-43.5, 21.5],
-      "length": 21.5,
+      "location": [-49, -15],
+      "length": 30,
       "width": 10,
       "angle": 180,
-      "contrailSize": 10,
+      "contrailSize": 30,
       "style": "MIDLINE"
     },
     {
-      "location": [-43.5, -21.5],
-      "length": 21.5,
+      "location": [-49, 15],
+      "length": 30,
       "width": 10,
       "angle": -180,
-      "contrailSize": 10,
-      "style": "LOW_TECH"
+      "contrailSize": 30,
+      "style": "MIDLINE"
     },
     {
-      "location": [-46.5, 12],
-      "length": 24,
-      "width": 6,
+      "location": [-41, -0],
+      "length": 66.5,
+      "width": 14,
       "angle": 180,
-      "contrailSize": 6,
-      "style": "MIDLINE"
-    },
-    {
-      "location": [-46.5, -12],
-      "length": 24,
-      "width": 6,
-      "angle": -180,
-      "contrailSize": 6,
-      "style": "MIDLINE"
-    },
-    {
-      "location": [-46, 3.5],
-      "length": 28,
-      "width": 5,
-      "angle": 180,
-      "contrailSize": 5,
-      "style": "MIDLINE"
-    },
-    {
-      "location": [-46, -3.5],
-      "length": 28,
-      "width": 5,
-      "angle": -180,
-      "contrailSize": 5,
+      "contrailSize": 14,
       "style": "MIDLINE"
     }
   ],
   "bounds": [
-    -48.5, -37,
-    8, -49.5,
-    39.5, -28,
-    42.5, 0,
-    42.5, -0,
-    39.5, 28,
-    8, 49.5,
-    -48.5, 37
+    -49.5, -20.5,
+    -26, -50.5,
+    22.5, -50,
+    57.5, -0,
+    22.5, 50,
+    -26, 50.5,
+    -49.5, 20.5
   ]
 }

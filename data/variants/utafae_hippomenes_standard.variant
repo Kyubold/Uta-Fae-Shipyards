@@ -1,0 +1,26 @@
+{
+  "variantId": "utafae_hippomenes_standard",
+  "hullId": "utafae_hippomenes",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 8,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac",
+        "WS0003": "lightdualac",
+        "WS0004": "utafae_snagsnap_srm",
+        "WS0005": "utafae_snagsnap_srm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

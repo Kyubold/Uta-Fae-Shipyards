@@ -6,19 +6,33 @@ import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
-import com.fs.starfarer.api.impl.campaign.ids.HullMods;
 
 
 public class utafae_CruiseDrive extends BaseHullMod {
 
 
 	//public static final float MANEUVER_PENALTY_MULT = 0.85f;
-	public float ZERO_FLUX_BOOST = 40f;
 
 
 	private float getZeroFluxBoost(HullSize hullSize){
 
-		return 40f;
+		switch (hullSize) {
+			case FRIGATE:
+				return 40f;
+
+			case DESTROYER:
+				return 35f;
+
+			case CRUISER:
+				return 30f;
+
+			case CAPITAL_SHIP:
+				return 25f;
+		
+			default:
+				return 0;
+
+		}
 	}
 
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
@@ -32,7 +46,9 @@ public class utafae_CruiseDrive extends BaseHullMod {
 		stats.getTurnAcceleration().modifyMult(id, mult);
 		stats.getMaxTurnRate().modifyMult(id, mult);
 		
-		stats.getZeroFluxSpeedBoost().modifyFlat(id, ZERO_FLUX_BOOST);
+
+		float boost = getZeroFluxBoost(hullSize);
+		stats.getZeroFluxSpeedBoost().modifyFlat(id, boost);
 
 
 		//CompromisedStructure.modifyCost(hullSize, stats, id);
@@ -40,7 +56,10 @@ public class utafae_CruiseDrive extends BaseHullMod {
 
 
 	public String getDescriptionParam(int index, HullSize hullSize) {
-        if (index == 0) return Math.round(ZERO_FLUX_BOOST) + "";
+        if (index == 0) return Math.round(getZeroFluxBoost(HullSize.FRIGATE)) + "";
+		if (index == 1) return Math.round(getZeroFluxBoost(HullSize.DESTROYER)) + "";
+		if (index == 2) return Math.round(getZeroFluxBoost(HullSize.CRUISER)) + "";
+		if (index == 3) return Math.round(getZeroFluxBoost(HullSize.CAPITAL_SHIP)) + "";
         return null;
     }
 

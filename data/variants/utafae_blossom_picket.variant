@@ -1,0 +1,29 @@
+{
+  "variantId": "utafae_blossom_picket",
+  "hullId": "utafae_blossom",
+  "displayName": "Picket",
+  "goalVariant": false,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
